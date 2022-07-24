@@ -380,6 +380,7 @@ function App() {
                 >
                   Free   Max   Per   Txn: 3
                 </s.TextDescription>
+<s.SpacerMedium />
 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)"}}
                 >
