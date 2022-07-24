@@ -380,11 +380,11 @@ function App() {
                 >
                   Free   Max   Per   Txn: 3
                 </s.TextDescription>
-<s.SpacerMedium />
+<s.SpacerSmall />
 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)"}}
                 >
-                  Or Unlimited <StyledLink target={"_blank"} href="https://the-pharaohs.vercel.app">
+                  Or Unlimited <StyledLink target={"_blank"} href="https://the-pharaohs.vercel.app" style={{textDecorationLine:"underline"}}>
                   Here
                 </StyledLink>
                   </s.TextDescription>
