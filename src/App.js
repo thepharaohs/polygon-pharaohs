@@ -384,7 +384,7 @@ function App() {
 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)"}}
                 >
-                  Or Unlimited <StyledLink target={"_blank"} href="https://the-pharaohs.vercel.app" style={{textDecorationLine:"underline"}}>
+                  Or Unlimited <StyledLink target={"_blank"} href="https://mint.thepharaohs.xyz" style={{textDecorationLine:"underline"}}>
                   Here
                 </StyledLink>
                   </s.TextDescription>
