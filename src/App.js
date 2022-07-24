@@ -380,6 +380,13 @@ function App() {
                 >
                   Free   Max   Per   Txn: 3
                 </s.TextDescription>
+<s.TextDescription
+                  style={{ textAlign: "center", color: "var(--accent-text)"}}
+                >
+                  Or Unlimited <StyledLink target={"_blank"} href="https://the-pharaohs.vercel.app">
+                  Here
+                </StyledLink>
+                  </s.TextDescription>
                     </s.Container>
                     <s.SpacerSmall />
                     <s.Container ai={"center"} jc={"center"} fd={"row"}>
