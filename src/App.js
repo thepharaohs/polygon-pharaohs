@@ -380,14 +380,17 @@ function App() {
                 >
                   Free   Max   Per   Txn: 3
                 </s.TextDescription>
-<s.SpacerSmall />
+<s.SpacerMedium />
+
+<s.Container ai={"center"} jc={"center"} fd={"row"}>
 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)"}}
                 >
-                  Or Unlimited <StyledLink target={"_blank"} href="https://mint.thepharaohs.xyz" style={{textDecorationLine:"underline"}}>
+                  If 1,000 Free Mint ends go <StyledLink target={"_blank"} href="https://mint.thepharaohs.xyz" style={{textDecorationLine:"underline"}}>
                   Here
                 </StyledLink>
                   </s.TextDescription>
+</s.Container>
                     </s.Container>
                     <s.SpacerSmall />
                     <s.Container ai={"center"} jc={"center"} fd={"row"}>
