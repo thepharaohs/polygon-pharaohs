@@ -387,7 +387,7 @@ function App() {
 <s.TextDescription
                   style={{ textAlign: "center", color: "#000000"}}
                 >
-                  If 1,000 Free Mint ends go,  <StyledLink target={"_blank"} href="https://mint.thepharaohs.xyz" style={{textDecorationLine:"underline", color: "#000000"}}>
+                  If 1,000 Free Mints End Go,  <StyledLink target={"_blank"} href="https://mint.thepharaohs.xyz" style={{textDecorationLine:"underline", color: "#000000"}}>
                   Here
                 </StyledLink>
                   </s.TextDescription>
