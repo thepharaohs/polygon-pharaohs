@@ -381,6 +381,7 @@ function App() {
                   Free   Max   Per   Txn: 3
                 </s.TextDescription>
 <s.SpacerMedium />
+</s.Container>
 
 <s.Container ai={"center"} jc={"center"} fd={"row"}>
 <s.TextDescription
@@ -391,7 +392,6 @@ function App() {
                 </StyledLink>
                   </s.TextDescription>
 </s.Container>
-                    </s.Container>
                     <s.SpacerSmall />
                     <s.Container ai={"center"} jc={"center"} fd={"row"}>
                       <StyledButton
