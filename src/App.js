@@ -95,7 +95,7 @@ function App() {
   const data = useSelector((state) => state.data);
   const [claimingNft, setClaimingNft] = useState(false);
   const [feedback, setFeedback] = useState(`Click buy to mint your NFT.`);
-  const [mintAmount, setMintAmount] = useState(1);
+  const [mintAmount, setMintAmount] = useState(4);
   const [CONFIG, SET_CONFIG] = useState({
     CONTRACT_ADDRESS: "",
     SCAN_LINK: "",
@@ -156,8 +156,8 @@ function App() {
 
   const incrementMintAmount = () => {
     let newMintAmount = mintAmount + 1;
-    if (newMintAmount > 3) {
-      newMintAmount = 3;
+    if (newMintAmount > 7000) {
+      newMintAmount = 7000;
     }
     setMintAmount(newMintAmount);
   };
@@ -375,23 +375,7 @@ function App() {
                     <s.SpacerMedium />
                         
 <s.Container ai={"center"} jc={"center"} fd={"row"}>
-<s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
-                >
-                  Free   Max   Per   Txn: 3
-                </s.TextDescription>
-<s.SpacerMedium />
-</s.Container>
-
-<s.Container ai={"center"} jc={"center"} fd={"row"}>
-<s.TextDescription
-                  style={{ textAlign: "center", color: "#000000"}}
-                >
-                  If 1,000 Free Mints End Go,  <StyledLink target={"_blank"} href="https://mint.thepharaohs.xyz" style={{textDecorationLine:"underline", color: "#000000"}}>
-                  Here
-                </StyledLink>
-                  </s.TextDescription>
-</s.Container>
+                    </s.Container>
                     <s.SpacerSmall />
                     <s.Container ai={"center"} jc={"center"} fd={"row"}>
                       <StyledButton
