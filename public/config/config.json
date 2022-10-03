@@ -1,18 +1,18 @@
 {
-  "CONTRACT_ADDRESS": "0x6b1514d9685b796b9899096b9e15fa8c0b1cbd47",
-  "SCAN_LINK": "https://etherscan.io/address/0x6b1514d9685b796b9899096b9e15fa8c0b1cbd47",
+  "CONTRACT_ADDRESS": "0x04e3682c32e961e0d3c62a7bcf58027af5ebb5d4",
+  "SCAN_LINK": "https://polygonscan.com/address/0x04e3682c32e961e0d3c62a7bcf58027af5ebb5d4",
   "NETWORK": {
-    "NAME": "Ethereum",
-    "SYMBOL": "ETH",
-    "ID": 1
+    "NAME": "Polygon",
+    "SYMBOL": "Matic",
+    "ID": 137
   },
   "NFT_NAME": "Pharaohs",
   "SYMBOL": "☥",
   "MAX_SUPPLY": 7000,
-  "WEI_COST": 0,
-  "DISPLAY_COST": "0",
+  "WEI_COST": 70000000000000000,
+  "DISPLAY_COST": "0.07",
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/thepharaohs7000",
+  "MARKETPLACE_LINK": "http://opensea.io/collection/the-pharaohs-nft",
   "SHOW_BACKGROUND": true
 }
